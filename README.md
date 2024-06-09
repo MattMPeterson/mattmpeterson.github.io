@@ -1,5 +1,2 @@
-# portfolio
-Personal portfolio created by Matthew Peterson
-Designed to showcase personal projects and host a handful of articles.
-
-
+# Created by Matthew Peterson #
+## Portfolio to showcase the works of Matthew Peterson ##
