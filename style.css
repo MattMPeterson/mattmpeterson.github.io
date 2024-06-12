@@ -10,7 +10,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Sego UI, Tahoma, Geneva, Verdana, sans-serif';
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 nav {
@@ -93,4 +93,28 @@ nav li:first-child {
     .sidebar {
         width: 400px;
     }
+}
+
+.container {
+    background-color: #e6e6e6ae;
+    backdrop-filter: blur(10px);
+    height: 100%;
+    max-height: 800px;
+    max-width: 80%;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.container h1{
+    font-size: 70px;
+}
+
+.container h2 {
+    font-size: 27px;
+}
+
+.container p {
+    margin-top: 10px;
 }
