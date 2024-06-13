@@ -99,22 +99,63 @@ nav li:first-child {
     background-color: #e6e6e6ae;
     backdrop-filter: blur(10px);
     height: 100%;
-    max-height: 800px;
-    max-width: 80%;
+    max-height: 500px;
+    max-width: 100%;
     margin-top: 30px;
     margin-left: 30px;
+    margin-right: 30px;
     border-radius: 6px;
     padding: 10px;
 }
 
 .container h1{
     font-size: 70px;
+    margin: 10px;
 }
 
 .container h2 {
     font-size: 27px;
+    margin: 10px;
 }
 
 .container p {
-    margin-top: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.showcase {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.showcaseItem {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 6px;
+
+}
+
+.showcaseItem:hover .showcaseOverlay {
+    opacity: 1;
+}
+
+.showcaseOverlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #4c0c0cae;
+    border-radius: 6px;
+}
+
+.overlayText {
+    color:white;
+    font-size: 24px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
